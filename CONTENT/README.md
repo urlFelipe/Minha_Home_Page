@@ -1,1 +1,1 @@
-
+Diretório para conteúdos.
