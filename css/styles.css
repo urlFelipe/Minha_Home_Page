@@ -1,0 +1,330 @@
+/* TODOS OS ELEMENTOS */
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* TODOS OS ELEMENTOS */
+
+/* HTML */
+html
+{
+    scroll-behavior: smooth;
+}
+/* HTML */
+
+.site
+{
+    display: table-row;
+}
+
+/* NAVEGADOR */
+.nav
+{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Staatliches', cursive;
+}
+
+.nav a:hover
+{
+    opacity: 0.7;
+}
+
+.nav_logo
+{
+    width: 60px;
+    height: 35px;
+}
+
+.nav_menu
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav_menu li a
+{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+.nav_menu li a:hover
+{
+    opacity: 0.5;
+}
+/* NAVEGADOR */
+
+/* HOME */
+.home
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-home
+{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-family: 'Staatliches', cursive;
+    flex-wrap: wrap;
+}
+
+.conteudo-home h1
+{
+    font-size: 150px;
+    margin-left: 150px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.conteudo-home h2
+{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.conteudo-home p
+{
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+.botao-start
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.botao-start a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.conteudo-imagem
+{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+/* HOME */
+
+/* SOBRE */
+.sobre
+{
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+
+.sobre-titulo
+{
+   position: absolute;
+   right: 70%;
+   margin-top: 10px;
+   font-family: 'Staatliches', cursive;
+   font-size: 70px;
+}
+
+.sobre-texto
+{
+    margin-top: 300px;
+    margin-left: 500px;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+/* SOBRE */
+
+/* PORTFÓLIO */
+.portfolio
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-portfolio
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Staatliches', cursive;
+    font-size: 70px;
+}
+
+.container-portfolio
+{
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+
+.primeiro-projeto
+{
+    margin-top: 150px;
+    display: flex;
+}
+
+.segundo-projeto
+{
+    margin-top: 150px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.guess
+{
+    margin-left: 10px;
+    width: 700px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.adoption
+{
+    margin-right: 10px;
+    width: 700px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.primeiro-projeto p
+{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.segundo-projeto p
+{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+/* PORTFÓLIO */
+
+/* SOCIAL */
+.contato 
+{
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-family: 'Staatliches', cursive;
+}
+
+.card1
+{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+}
+
+.card2
+{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+}
+
+.card3
+{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+}
+
+.address
+{
+    text-align: center;
+    display: grid;
+    padding: 20px;
+    color: white;
+}
+
+.email
+{
+    text-align: center;
+    display: grid;
+    padding: 20px;
+    color: white;
+}
+
+.telephone
+{
+    text-align: center;
+    display: grid;
+    padding: 20px;
+    color: white;
+}
+
+.social
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.link-social
+{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-top: 50px;
+}
+/* SOCIAL */
+
+/* FOOTER */
+.footer
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.875em;
+    background-color: white;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-copyright
+{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* FOOTER */
